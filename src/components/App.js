@@ -7,6 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    //move this to store
     this.state = {
       videos: [],
       currentVideo: null
