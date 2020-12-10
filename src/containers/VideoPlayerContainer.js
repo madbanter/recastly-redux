@@ -13,13 +13,6 @@ mapStateToProps = (state) => {
 
 };
 
-mapDispatchToProps = (dispatch) => {
-  return {
-
-  }
-
-};
-
-var VideoPlayerContainer = connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
+var VideoPlayerContainer = connect(mapStateToProps, null)(VideoPlayer);
 
 export default VideoPlayerContainer;
