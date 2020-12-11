@@ -8,7 +8,7 @@ var mapStateToProps = (state) => ({
 
 var mapDispatchToProps = (dispatch) => {
   handleInputChange: (q) => {
-    dispatch(handleSearchChange(q);
+    dispatch(handleSearchChange(q));
   };
 };
 
