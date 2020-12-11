@@ -5,7 +5,7 @@ var Search = ({handleInputChange}) => (
     <input
       className="form-control"
       type="text"
-      onChange={(e) => handleInputChange(even.target.value)}
+      onChange={(e) => handleInputChange(e.target.value)}
     />
     <button className="btn hidden-sm-down">
       <span className="glyphicon glyphicon-search"></span>
