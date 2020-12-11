@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoListContainer from '../containers/VideoList.js';
-import VideoPlayerContainer from '../containers/VideoPlayer.js';
-import SearchContainer from '../containers/Search.js';
+import VideoListContainer from '../containers/VideoListContainer.js';
+import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import SearchContainer from '../containers/SearchContainer.js';
 
 var App = () => (
   <div>

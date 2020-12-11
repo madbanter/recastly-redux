@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './components/App.js';
 import { Provider } from 'react-redux';
 import store from './store/store.js';
-import handleSearchChange from '../actions/search.js';
+import handleSearchChange from './actions/search.js';
 
 ReactDOM.render(
   <Provider store={store}>
