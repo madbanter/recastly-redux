@@ -7,8 +7,8 @@ var mapStateToProps = (state) => ({
 });
 
 var mapDispatchToProps = (dispatch) => {
-  handleSearchChange: (q) => {
-    dispatch(handleVideoSearch(q));
+  handleInputChange: (q) => {
+    dispatch(handleSearchChange(q);
   };
 };
 
