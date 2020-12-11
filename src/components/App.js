@@ -1,40 +1,21 @@
 import React from 'react';
-import VideoList from './VideoList.js';
-import VideoPlayer from './VideoPlayer.js';
-import Search from './Search.js';
+import VideoListContainer from '../containers/VideoList.js';
+import VideoPlayerContainer from '../containers/VideoPlayer.js';
+import SearchContainer from '../containers/Search.js';
 
 var App = () => (
-
-  // MOVE THESE:
-  // this.getYouTubeVideos = this.getYouTubeVideos.bind(this);
-
-
-  // getYouTubeVideos(query) {
-  //   var options = {
-  //     key: this.props.API_KEY,
-  //     query: query
-  //   };
-
-  //   this.props.searchYouTube(options, (videos) =>
-  //     this.setState({
-  //       videos: videos,
-  //       currentVideo: videos[0]
-  //     })
-  //   );
-  // }
-
   <div>
     <nav className="navbar">
       <div className="col-md-6 col-md-offset-3">
-        <Search />
+        <SearchContainer />
       </div>
     </nav>
     <div className="row">
       <div className="col-md-7">
-        <VideoPlayer />
+        <VideoPlayerContainer />
       </div>
       <div className="col-md-5">
-        <VideoList />
+        <VideoListContainer />
       </div>
     </div>
   </div>
