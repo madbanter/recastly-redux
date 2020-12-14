@@ -4,7 +4,7 @@ import changeVideo from './currentVideo.js';
 import YOUTUBE_API_KEY from '../config/youtube.js';
 import _ from 'lodash';
 
-var handleInputChange = (q) => {
+var handleVideoSearch = (q) => {
   return _.debounce((dispatch) => {
     var options = {
       key: YOUTUBE_API_KEY,
@@ -18,4 +18,4 @@ var handleInputChange = (q) => {
   }, 200);
 };
 
-export default handleInputChange;
+export default handleVideoSearch;
